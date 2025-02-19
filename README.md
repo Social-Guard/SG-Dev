@@ -2,5 +2,5 @@ Brian Alcazar
 
 Jasmine Torres
 
-Kamaran Frnacis
+Kamaran Francis
 # SG-Dev
