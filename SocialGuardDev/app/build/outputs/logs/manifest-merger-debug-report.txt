@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:8.8.2] C:\Users\kxfra\.gradle\caches\8.10.2\transforms\8986694b4a5ab27ff45c61ffd4958dc2\transformed\viewbinding-8.8.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.8] C:\Users\kxfra\.gradle\caches\8.10.2\transforms\90f4716481d32a34edcf75b08eaf5952\transformed\navigation-common-2.8.8\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.8] C:\Users\kxfra\.gradle\caches\8.10.2\transforms\bb97495ede8ca1cc43cd7d58f50720c2\transformed\navigation-common-ktx-2.8.8\AndroidManifest.xml:2:1-7:12
@@ -78,13 +78,17 @@ uses-permission#android.permission.PACKAGE_USAGE_STATS
 ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:5:5-78
 	android:name
 		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:5:22-75
-uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
-ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:6:5-95
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:6:5-77
 	android:name
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:6:22-92
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:7:5-95
+	android:name
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:7:22-92
 application
-ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:8:5-28:19
-INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:8:5-28:19
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:10:5-30:19
+INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:10:5-30:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\kxfra\.gradle\caches\8.10.2\transforms\f1923d09bbafa91b60fc350129502dc8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\kxfra\.gradle\caches\8.10.2\transforms\f1923d09bbafa91b60fc350129502dc8\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\kxfra\.gradle\caches\8.10.2\transforms\a0e16b1462a58ff77932f4fe34fccccf\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -108,41 +112,41 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kx
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] C:\Users\kxfra\.gradle\caches\8.10.2\transforms\b458755366dce431f7191a5b5a14b2a6\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:15:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:13:9-54
 	android:roundIcon
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:16:9-54
 	tools:targetApi
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:17:9-29
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:16:9-52
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:18:9-52
 	android:dataExtractionRules
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:10:9-65
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:12:9-65
 activity#com.example.social_guard_dev.MainActivity
-ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:18:9-27:20
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:20:9-29:20
 	android:label
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:23:13-45
 	android:exported
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:21:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kxfra\AndroidStudioProjects\SG-Dev\SocialGuardDev\app\src\main\AndroidManifest.xml
