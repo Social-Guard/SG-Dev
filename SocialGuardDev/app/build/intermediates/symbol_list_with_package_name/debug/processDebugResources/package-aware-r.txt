@@ -3087,6 +3087,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notification
 drawable ic_notifications_black_24dp
 drawable ic_search_black_24
 drawable indeterminate_static
@@ -3247,6 +3248,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appNameTextView
+id appUsageRecyclerView
 id arc
 id asConfigured
 id async
@@ -3571,6 +3574,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id setTimerButton
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3645,6 +3649,8 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id timeUnitSpinner
+id timerEditText
 id title
 id titleDividerNoCustom
 id title_template
@@ -3667,6 +3673,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id usageTimeTextView
 id useLogo
 id vertical
 id vertical_only
@@ -3820,11 +3827,13 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_set_timer
 layout fragment_dashboard
 layout fragment_home
 layout fragment_notifications
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_app_usage
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
