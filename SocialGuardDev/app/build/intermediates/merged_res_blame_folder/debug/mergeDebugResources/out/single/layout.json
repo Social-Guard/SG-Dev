@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/fragment_home.xml",
+        "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_home.xml"
+    },
+    {
         "merged": "C:\\Users\\kxfra\\.gradle\\daemon\\8.10.2\\com.example.social_guard_dev.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
         "source": "C:\\Users\\kxfra\\.gradle\\daemon\\8.10.2\\com.example.social_guard_dev.app-main-51:\\layout\\fragment_home.xml"
     },
@@ -20,8 +24,8 @@
         "source": "C:\\Users\\kxfra\\.gradle\\daemon\\8.10.2\\com.example.social_guard_dev.app-main-51:\\layout\\activity_set_timer.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/dialog_set_timer.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/dialog_set_timer.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "com.example.social_guard_dev.app-main-51:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\kxfra\\.gradle\\daemon\\8.10.2\\com.example.social_guard_dev.app-mergeDebugResources-48:\\layout\\dialog_set_timer.xml",
