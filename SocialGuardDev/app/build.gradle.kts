@@ -39,15 +39,30 @@ android {
 }
 
 dependencies {
-
+    // Core KTX
     implementation(libs.androidx.core.ktx)
+
+    // UI
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.lifecycle.livedata.ktx)
+
+    // Lifecycle components
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    // Navigation
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+
+    // Fragment KTX (for viewModels delegate)
+    implementation(libs.androidx.fragment.ktx)
+
+    // Chart library
+    implementation(libs.mpandroidchart)
+
+    // Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

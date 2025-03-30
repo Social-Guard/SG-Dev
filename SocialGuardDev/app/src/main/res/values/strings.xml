@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Social-Guard-Dev</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_trends">Trends</string>
+    <string-array name="time_units">
+    <item>Seconds</item>
+    <item>Minutes</item>
+    <item>Hours</item>
+</string-array>
     <string name="title_notifications">Notifications</string>
+    <string name="no_usage_data">No usage data available\n\nPlease grant usage access permission in settings</string>
 </resources>

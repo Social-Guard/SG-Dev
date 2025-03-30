@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.social_guard_dev.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_trends"
+        android:name="com.example.social_guard_dev.ui.trends.TrendsFragment"
+        android:label="@string/title_trends"
+        tools:layout="@layout/fragment_trends" />
 
     <fragment
         android:id="@+id/navigation_notifications"
