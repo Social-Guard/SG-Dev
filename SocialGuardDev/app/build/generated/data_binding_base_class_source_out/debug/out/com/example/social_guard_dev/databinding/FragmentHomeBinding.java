@@ -4,10 +4,12 @@ package com.example.social_guard_dev.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.social_guard_dev.R;
@@ -20,10 +22,24 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final RecyclerView appUsageRecyclerView;
+
+  @NonNull
+  public final TextView emptyStateView;
+
+  @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
   public final TextView textHome;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textHome) {
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
+      @NonNull RecyclerView appUsageRecyclerView, @NonNull TextView emptyStateView,
+      @NonNull ProgressBar progressBar, @NonNull TextView textHome) {
     this.rootView = rootView;
+    this.appUsageRecyclerView = appUsageRecyclerView;
+    this.emptyStateView = emptyStateView;
+    this.progressBar = progressBar;
     this.textHome = textHome;
   }
 
@@ -54,13 +70,32 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.appUsageRecyclerView;
+      RecyclerView appUsageRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (appUsageRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.emptyStateView;
+      TextView emptyStateView = ViewBindings.findChildViewById(rootView, id);
+      if (emptyStateView == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       id = R.id.text_home;
       TextView textHome = ViewBindings.findChildViewById(rootView, id);
       if (textHome == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, textHome);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, appUsageRecyclerView,
+          emptyStateView, progressBar, textHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
