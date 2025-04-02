@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array time_units
 color black
 color purple_200
 color purple_500
@@ -15,15 +16,21 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_notification
 drawable ic_notifications_black_24dp
+drawable ic_trends_black_24dp
 id appNameTextView
 id appUsageRecyclerView
 id container
+id dailyChart
+id emptyDailyView
+id emptyStateView
+id emptyWeeklyView
 id mobile_navigation
 id nav_host_fragment_activity_main
 id nav_view
-id navigation_dashboard
 id navigation_home
 id navigation_notifications
+id navigation_trends
+id progressBar
 id setTimerButton
 id text_dashboard
 id text_home
@@ -31,21 +38,24 @@ id text_notifications
 id timeUnitSpinner
 id timerEditText
 id usageTimeTextView
+id weeklyChart
 layout activity_main
 layout activity_set_timer
 layout dialog_set_timer
 layout fragment_dashboard
 layout fragment_home
 layout fragment_notifications
+layout fragment_trends
 layout item_app_usage
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation
 string app_name
-string title_dashboard
+string no_usage_data
 string title_home
 string title_notifications
+string title_trends
 style Theme.SocialGuardDev
 xml backup_rules
 xml data_extraction_rules
