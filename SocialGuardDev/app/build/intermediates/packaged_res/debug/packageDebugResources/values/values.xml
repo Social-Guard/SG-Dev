@@ -16,8 +16,10 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="app_name">Social-Guard-Dev</string>
     <string name="no_usage_data">No usage data available\n\nPlease grant usage access permission in settings</string>
+    <string name="place_holder"/>
     <string name="title_home">Home</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_tasks">Tasks\n</string>
     <string name="title_trends">Trends</string>
     <style name="Theme.SocialGuardDev" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
