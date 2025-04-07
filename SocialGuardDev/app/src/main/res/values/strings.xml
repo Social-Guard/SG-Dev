@@ -9,4 +9,6 @@
 </string-array>
     <string name="title_notifications">Notifications</string>
     <string name="no_usage_data">No usage data available\n\nPlease grant usage access permission in settings</string>
+    <string name="title_tasks">Tasks\n</string>
+    <string name="place_holder" />
 </resources>

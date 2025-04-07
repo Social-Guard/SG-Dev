@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -29,12 +30,21 @@ public final class FragmentToDoBoxBinding implements ViewBinding {
   @NonNull
   public final MaterialButton saveButton;
 
+  @NonNull
+  public final TextView taskTitle;
+
+  @NonNull
+  public final MaterialButton timePickerButton;
+
   private FragmentToDoBoxBinding(@NonNull LinearLayout rootView, @NonNull TextInputEditText desc,
-      @NonNull TextInputEditText name, @NonNull MaterialButton saveButton) {
+      @NonNull TextInputEditText name, @NonNull MaterialButton saveButton,
+      @NonNull TextView taskTitle, @NonNull MaterialButton timePickerButton) {
     this.rootView = rootView;
     this.desc = desc;
     this.name = name;
     this.saveButton = saveButton;
+    this.taskTitle = taskTitle;
+    this.timePickerButton = timePickerButton;
   }
 
   @Override
@@ -82,7 +92,20 @@ public final class FragmentToDoBoxBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentToDoBoxBinding((LinearLayout) rootView, desc, name, saveButton);
+      id = R.id.taskTitle;
+      TextView taskTitle = ViewBindings.findChildViewById(rootView, id);
+      if (taskTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.timePickerButton;
+      MaterialButton timePickerButton = ViewBindings.findChildViewById(rootView, id);
+      if (timePickerButton == null) {
+        break missingId;
+      }
+
+      return new FragmentToDoBoxBinding((LinearLayout) rootView, desc, name, saveButton, taskTitle,
+          timePickerButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
