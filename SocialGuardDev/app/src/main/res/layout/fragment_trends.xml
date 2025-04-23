@@ -1,57 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:background="?android:colorBackground">
 
+        <!-- Daily Usage Title -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Daily Usage"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="?colorPrimary" />
 
+        <!-- Daily Usage Chart -->
         <com.github.mikephil.charting.charts.BarChart
             android:id="@+id/dailyChart"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:layout_marginTop="8dp" />
 
+        <!-- Empty State for Daily Chart -->
         <TextView
             android:id="@+id/emptyDailyView"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:gravity="center"
             android:text="No daily usage data available"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
             android:visibility="gone" />
 
+        <!-- Weekly Usage Title -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="Weekly Usage"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="?colorPrimary" />
 
+        <!-- Weekly Usage Chart -->
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/weeklyChart"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:layout_marginTop="8dp" />
 
+        <!-- Empty State for Weekly Chart -->
         <TextView
             android:id="@+id/emptyWeeklyView"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:gravity="center"
             android:text="No weekly usage data available"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
             android:visibility="gone" />
 
+        <!-- Loading Spinner -->
         <ProgressBar
             android:id="@+id/progressBar"
             android:layout_width="wrap_content"
