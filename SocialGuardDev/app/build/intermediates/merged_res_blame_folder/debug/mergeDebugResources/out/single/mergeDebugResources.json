@@ -8,6 +8,10 @@
         "source": "com.example.social_guard_dev.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.social_guard_dev.app-main-51:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.example.social_guard_dev.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
     },
@@ -60,6 +64,10 @@
         "source": "com.example.social_guard_dev.app-main-51:/drawable/ic_tasks_black_24dp.xml"
     },
     {
+        "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.social_guard_dev.app-main-51:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.example.social_guard_dev.app-main-51:/mipmap-hdpi/ic_launcher.webp"
     },
@@ -70,6 +78,10 @@
     {
         "merged": "com.example.social_guard_dev.app-debug-49:/layout_fragment_to_do_box.xml.flat",
         "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_to_do_box.xml"
+    },
+    {
+        "merged": "com.example.social_guard_dev.app-debug-49:/color_nav_item_color_state.xml.flat",
+        "source": "com.example.social_guard_dev.app-main-51:/color/nav_item_color_state.xml"
     },
     {
         "merged": "com.example.social_guard_dev.app-debug-49:/navigation_mobile_navigation.xml.flat",
@@ -84,12 +96,24 @@
         "source": "com.example.social_guard_dev.app-main-51:/drawable/ic_dashboard_black_24dp.xml"
     },
     {
+        "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.social_guard_dev.app-main-51:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.example.social_guard_dev.app-debug-49:/drawable_ic_uncheckedbox.xml.flat",
         "source": "com.example.social_guard_dev.app-main-51:/drawable/ic_uncheckedbox.xml"
     },
     {
         "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.social_guard_dev.app-main-51:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.social_guard_dev.app-main-51:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.social_guard_dev.app-debug-49:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.social_guard_dev.app-main-51:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "com.example.social_guard_dev.app-debug-49:/drawable_ic_home_black_24dp.xml.flat",
