@@ -1480,8 +1480,13 @@ int color error_color_material_dark 0x7f06005a
 int color error_color_material_light 0x7f06005b
 int color foreground_material_dark 0x7f06005c
 int color foreground_material_light 0x7f06005d
+int color green_300 0x7f06030d
+int color green_500 0x7f06030e
+int color green_700 0x7f06030f
+int color green_900 0x7f060310
 int color highlighted_text_material_dark 0x7f06005e
 int color highlighted_text_material_light 0x7f06005f
+int color ic_launcher_background 0x7f06030c
 int color m3_appbar_overlay_color 0x7f060060
 int color m3_assist_chip_icon_tint_color 0x7f060061
 int color m3_assist_chip_stroke_color 0x7f060062
@@ -2136,6 +2141,7 @@ int color mtrl_textinput_disabled_color 0x7f0602ea
 int color mtrl_textinput_filled_box_default_background_color 0x7f0602eb
 int color mtrl_textinput_focused_box_stroke_color 0x7f0602ec
 int color mtrl_textinput_hovered_box_stroke_color 0x7f0602ed
+int color nav_item_color_state 0x7f060319
 int color notification_action_color_filter 0x7f0602ee
 int color notification_icon_bg_color 0x7f0602ef
 int color primary_dark_material_dark 0x7f0602f0
@@ -2149,6 +2155,10 @@ int color primary_text_disabled_material_light 0x7f0602f7
 int color purple_200 0x7f0602f8
 int color purple_500 0x7f0602f9
 int color purple_700 0x7f0602fa
+int color red_300 0x7f060311
+int color red_500 0x7f060312
+int color red_700 0x7f060313
+int color red_900 0x7f060314
 int color ripple_material_dark 0x7f0602fb
 int color ripple_material_light 0x7f0602fc
 int color secondary_text_default_material_dark 0x7f0602fd
@@ -2166,6 +2176,10 @@ int color teal_700 0x7f060308
 int color tooltip_background_dark 0x7f060309
 int color tooltip_background_light 0x7f06030a
 int color white 0x7f06030b
+int color yellow_300 0x7f060315
+int color yellow_500 0x7f060316
+int color yellow_700 0x7f060317
+int color yellow_900 0x7f060318
 int dimen abc_action_bar_content_inset_material 0x7f070000
 int dimen abc_action_bar_content_inset_with_nav 0x7f070001
 int dimen abc_action_bar_default_height_material 0x7f070002
@@ -3922,6 +3936,7 @@ int layout support_simple_spinner_dropdown_item 0x7f0c0074
 int layout task_item_box 0x7f0c0075
 int menu bottom_nav_menu 0x7f0e0000
 int mipmap ic_launcher 0x7f0f0000
+int mipmap ic_launcher_foreground 0x7f0f0002
 int mipmap ic_launcher_round 0x7f0f0001
 int navigation mobile_navigation 0x7f100000
 int plurals mtrl_badge_content_description 0x7f110000

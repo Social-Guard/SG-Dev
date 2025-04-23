@@ -2,12 +2,26 @@ R_DEF: Internal format may change without notice
 local
 array time_units
 color black
+color green_300
+color green_500
+color green_700
+color green_900
+color ic_launcher_background
+color nav_item_color_state
 color purple_200
 color purple_500
 color purple_700
+color red_300
+color red_500
+color red_700
+color red_900
 color teal_200
 color teal_700
 color white
+color yellow_300
+color yellow_500
+color yellow_700
+color yellow_900
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
 drawable baseline_add_circle_24
@@ -66,6 +80,7 @@ layout item_app_usage
 layout task_item_box
 menu bottom_nav_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation mobile_navigation
 string app_name

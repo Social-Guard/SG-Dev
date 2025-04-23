@@ -4,7 +4,7 @@
             "outputFile": "com.example.social_guard_dev.app-mergeDebugResources-47:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\torre\\.gradle\\caches\\8.10.2\\transforms\\5ab54a9589f8376f5955c27a363aab64\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\Necro\\.gradle\\caches\\8.10.2\\transforms\\5ab54a9589f8376f5955c27a363aab64\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
