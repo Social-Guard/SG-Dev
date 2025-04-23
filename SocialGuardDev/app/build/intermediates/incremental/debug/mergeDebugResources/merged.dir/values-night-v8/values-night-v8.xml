@@ -47,7 +47,7 @@
         
         <item name="android:colorBackground">@color/ic_launcher_background</item>
         <item name="colorSurface">#121212</item>
-        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnBackground">@color/purple_500</item>
         <item name="colorOnSurface">@color/purple_700</item>
 
         
