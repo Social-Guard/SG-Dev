@@ -16,4 +16,9 @@
         android:icon="@drawable/ic_tasks_black_24dp"
         android:title="@string/title_tasks" />
 
+    <item
+        android:id="@+id/navigation_achievements"
+        android:icon="@drawable/ic_achievement"
+        android:title="@string/title_achievements" />
+
 </menu>

@@ -27,6 +27,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.social_guard_dev.R
 import com.example.social_guard_dev.databinding.FragmentHomeBinding
 import com.example.social_guard_dev.databinding.ItemAppUsageBinding
+import com.example.social_guard_dev.ui.utils.NotificationHelper
 import com.example.social_guard_dev.viewmodels.UsageViewModel
 import com.example.social_guard_dev.viewmodels.UsageViewModelFactory
 
@@ -37,6 +38,8 @@ class HomeFragment : Fragment() {
     private val CHANNEL_ID = "AppTimerChannel"
     private val CHANNEL_NAME = "App Timer Notifications"
     private lateinit var appUsageAdapter: AppUsageAdapter
+    private val USAGE_STATS_REQUEST_CODE = 100
+    private val NOTIFICATION_REQUEST_CODE = 101
 
     private val viewModel: UsageViewModel by viewModels(
         factoryProducer = { UsageViewModelFactory(requireActivity().application) }
@@ -62,7 +65,10 @@ class HomeFragment : Fragment() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (requireContext().checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS)
                 != PackageManager.PERMISSION_GRANTED) {
-                requestPermissions(arrayOf(android.Manifest.permission.POST_NOTIFICATIONS), 1)
+                requestPermissions(
+                    arrayOf(android.Manifest.permission.POST_NOTIFICATIONS),
+                    NOTIFICATION_REQUEST_CODE
+                )
             }
         }
     }
@@ -108,10 +114,43 @@ class HomeFragment : Fragment() {
         }
     }
 
+    //private fun checkAndRequestUsageStatsPermission() {
+      //  if (!hasUsageStatsPermission()) {
+        //    val intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
+          //  startActivity(intent)
+        //}
+    //}
+
     private fun checkAndRequestUsageStatsPermission() {
         if (!hasUsageStatsPermission()) {
-            val intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
-            startActivity(intent)
+            AlertDialog.Builder(requireContext())
+                .setTitle("Permission Needed")
+                .setMessage("This app requires usage stats permission to track your app usage.")
+                .setPositiveButton("Open Settings") { _, _ ->
+                    val intent = Intent(Settings.ACTION_USAGE_ACCESS_SETTINGS)
+                    startActivity(intent)
+                }
+                .setNegativeButton("Cancel") { dialog, _ -> dialog.dismiss() }
+                .show()
+        }
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        when (requestCode) {
+            NOTIFICATION_REQUEST_CODE -> {
+                if (grantResults.isNotEmpty() && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(
+                        requireContext(),
+                        "Notification permission is needed for time limit alerts",
+                        Toast.LENGTH_LONG
+                    ).show()
+                }
+            }
+            else -> super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         }
     }
 
@@ -140,13 +179,37 @@ class HomeFragment : Fragment() {
         }
     }
 
+    //private fun checkAppUsageAgainstTimer(usageStats: UsageStats) {
+      //  val appLimit = getAppTimeLimit(usageStats.packageName)
+        //if (usageStats.totalTimeInForeground > appLimit && appLimit > 0) {
+          //  showNotification(
+            //    "App Timer Limit Reached",
+              //  "You have exceeded your usage limit for ${viewModel.getAppName(usageStats.packageName)}."
+            //)
+        //}
+    //}
+
     private fun checkAppUsageAgainstTimer(usageStats: UsageStats) {
-        val appLimit = getAppTimeLimit(usageStats.packageName)
-        if (usageStats.totalTimeInForeground > appLimit && appLimit > 0) {
-            showNotification(
-                "App Timer Limit Reached",
-                "You have exceeded your usage limit for ${viewModel.getAppName(usageStats.packageName)}."
-            )
+        val packageName = usageStats.packageName
+        val appName = viewModel.getAppName(packageName)
+        val currentUsage = usageStats.totalTimeInForeground
+        val limit = getAppTimeLimit(packageName)
+
+        // Check if limit is set and usage exceeds it
+        if (limit > 0 && currentUsage > limit) {
+            // Check if snoozed
+            val snoozeTime = requireContext().getSharedPreferences("AppTimers", Context.MODE_PRIVATE)
+                .getLong("${packageName}_snooze", 0)
+
+            if (System.currentTimeMillis() > snoozeTime) {
+                NotificationHelper.showTimeLimitNotification(
+                    requireContext(),
+                    appName,
+                    packageName,
+                    currentUsage,
+                    limit
+                )
+            }
         }
     }
 

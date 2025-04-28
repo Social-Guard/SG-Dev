@@ -2,6 +2,7 @@
     <string name="app_name">Social-Guard-Dev</string>
     <string name="title_home">Home</string>
     <string name="title_trends">Trends</string>
+    <string name="title_achievements">Achievements</string>
     <string-array name="time_units">
     <item>Seconds</item>
     <item>Minutes</item>
@@ -11,4 +12,13 @@
     <string name="no_usage_data">No usage data available\n\nPlease grant usage access permission in settings</string>
     <string name="title_tasks">Tasks\n</string>
     <string name="place_holder" />
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="battery_optimization_message">For accurate usage tracking, please disable battery optimization for this app.</string>
+    <string name="disable">Disable</string>
+    <string name="later">Later</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="total_points">Total Points</string>
+    <string name="achieved">Achieved</string>
+    <string name="points_abbr">pts</string>
+    <string name="achievement_unlocked">Achievement Unlocked!</string>
 </resources>
