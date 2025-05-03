@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.social_guard_dev.app-mergeDebugResources-47:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.example.social_guard_dev.app-mergeDebugResources-48:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kxfra\\.gradle\\caches\\8.10.2\\transforms\\5ab54a9589f8376f5955c27a363aab64\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\kxfra\\.gradle\\caches\\8.10.2\\transforms\\5e1b2249f6a7968985dc3c0d7d7c2c92\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
