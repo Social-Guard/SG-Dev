@@ -22,7 +22,7 @@
 
         android:layout_marginBottom="92dp"
 
-        android:backgroundTint="@color/purple_200"
+        android:backgroundTint="?colorSecondary"
         android:text="NewTask"
         android:textColor="?colorOnPrimary"
         app:icon="@drawable/baseline_add_circle_24"

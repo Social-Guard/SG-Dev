@@ -563,7 +563,7 @@ public final class DaggerSocialGuardApp_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectSocialGuardApp(SocialGuardApp socialGuardApp) {
+    public void injectSocialGuardApp(SocialGuardApp arg0) {
     }
 
     @Override
