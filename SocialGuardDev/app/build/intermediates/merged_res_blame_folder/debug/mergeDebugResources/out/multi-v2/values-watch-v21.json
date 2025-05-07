@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.social_guard_dev.app-mergeDebugResources-47:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.social_guard_dev.app-mergeDebugResources-48:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Necro\\.gradle\\caches\\8.10.2\\transforms\\0e9e628648789febabc252561935c3b1\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\kxfra\\.gradle\\caches\\8.10.2\\transforms\\8b4435653d7c37534afe911219621c79\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -7,6 +7,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.example.social_guard_dev.data.UsageStatsRepository
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 class UsageViewModel(application: Application) : AndroidViewModel(application) {
@@ -49,5 +50,14 @@ class UsageViewModel(application: Application) : AndroidViewModel(application) {
 
     fun getAppName(packageName: String): String {
         return repository.getAppName(packageName)
+    }
+
+    fun startPeriodicUsageCheck() {
+        viewModelScope.launch {
+            while (true) {
+                refreshData()
+                delay(60_000) // Check every minute
+            }
+        }
     }
 }

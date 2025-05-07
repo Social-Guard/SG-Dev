@@ -1,46 +1,58 @@
 [
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/fragment_trends.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_trends.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/dialog_achievement_detail.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/dialog_achievement_detail.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/fragment_home.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_home.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/activity_set_timer.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/activity_set_timer.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/fragment_to_do_box.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_to_do_box.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/item_achievement.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/item_achievement.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/task_item_box.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/task_item_box.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/fragment_dashboard.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/item_app_usage.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/item_app_usage.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/dialog_set_timer.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/dialog_set_timer.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/fragment_tasks.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_tasks.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/item_app_usage.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/item_app_usage.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/fragment_dashboard.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_dashboard.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/fragment_trends.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/fragment_trends.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/dialog_set_timer.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/dialog_set_timer.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/activity_main.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/activity_main.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/fragment_tasks.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/fragment_tasks.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/fragment_notifications.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/fragment_notifications.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/fragment_notifications.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/fragment_notifications.xml"
     },
     {
-        "merged": "com.example.social_guard_dev.app-mergeDebugResources-48:/layout/activity_set_timer.xml",
-        "source": "com.example.social_guard_dev.app-main-51:/layout/activity_set_timer.xml"
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/fragment_home.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/fragment_achievements.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/fragment_achievements.xml"
+    },
+    {
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/task_item_box.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/task_item_box.xml"
+    },
+    {
+        "merged": "com.example.social_guard_dev.app-mergeDebugResources-49:/layout/fragment_to_do_box.xml",
+        "source": "com.example.social_guard_dev.app-main-52:/layout/fragment_to_do_box.xml"
     }
 ]
